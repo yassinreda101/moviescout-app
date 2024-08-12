@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-const API_URL = 'http://www.omdbapi.com?apikey=fccfb622';
+const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
 
 const MovieDetails = () => {
   const [movie, setMovie] = useState(null);

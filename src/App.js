@@ -6,15 +6,15 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="app">
-      <h1>MovieScout</h1>
-      <Router>
+    <Router>
+      <div className="app">
+        <h1>MovieScout</h1>
         <Routes>
           <Route path="/" element={<SearchPage />} />
           <Route path="/movie/:id" element={<MovieDetails />} />
         </Routes>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 };
 

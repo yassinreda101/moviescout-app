@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 
-const API_URL = 'http://www.omdbapi.com?apikey=fccfb622'
+const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`
 
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
