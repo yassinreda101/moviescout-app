@@ -8,9 +8,10 @@ Click on a movie to view detailed information
 Responsive design that works on desktop and mobile devices
 
 Live Demo
-[Add your live demo link here once you've deployed the app]
+https://moviesscout.netlify.app/ 
 Screenshots
-[Consider adding screenshots of your app here]
+![image](https://github.com/user-attachments/assets/ee7943fc-ea27-42fd-899e-5481eb611aa2)
+
 
 Technologies Used
 
