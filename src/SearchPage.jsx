@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import MovieCard from "./MovieCard";
 
-const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`;
+const API_URL = `https://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB_API_KEY}`
 
 const SearchPage = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,10 +12,21 @@ const SearchPage = () => {
   }, []);
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
-    const data = await response.json();
-
-    setMovies(data.Search);
+    console.log("Searching for:", title);
+    console.log("API URL:", API_URL);
+    try {
+      const response = await fetch(`${API_URL}&s=${title}`);
+      const data = await response.json();
+      console.log("API response:", data);
+      if (data.Search) {
+        setMovies(data.Search);
+      } else {
+        console.log("No movies found or error in API response");
+        setMovies([]);
+      }
+    } catch (error) {
+      console.error("Error fetching movies:", error);
+    }
   };
 
   const handleSearch = (e) => {
