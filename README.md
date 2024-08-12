@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+MovieScout - React Movie App
+MovieScout is a responsive web application built with React that allows users to search for movies and view detailed information about them. The app uses the OMDB API to fetch movie data.
+Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Search for movies by title
+View a list of movies matching the search query
+Click on a movie to view detailed information
+Responsive design that works on desktop and mobile devices
 
-## Available Scripts
+Live Demo
+[Add your live demo link here once you've deployed the app]
+Screenshots
+[Consider adding screenshots of your app here]
 
-In the project directory, you can run:
+Technologies Used
 
-### `npm start`
+React
+React Router
+CSS3
+OMDB API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Getting Started
+To get a local copy up and running, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository
+Copygit clone https://github.com/yassinreda101/react-movie-app.git
 
-### `npm test`
+Navigate to the project directory
+Copycd react-movie-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install NPM packages
+Copynpm install
 
-### `npm run build`
+Create a .env file in the root directory and add your OMDB API key
+CopyREACT_APP_OMDB_API_KEY=your_api_key_here
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server
+Copynpm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open http://localhost:3000 to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Usage
 
-### `npm run eject`
+Enter a movie title in the search bar and press Enter or click the Search button.
+Browse through the list of movies that match your search query.
+Click on a movie card to view more detailed information about that movie.
+Use the "Back to Search" button to return to the search results.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributing
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+License
+Distributed under the MIT License. See LICENSE for more information.
+Contact
+Your Name - sinobino12004@outlook.com
+Project Link: https://github.com/yassinreda101/react-movie-app
+Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+OMDB API
+React
+React Router
